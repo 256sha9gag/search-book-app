@@ -1,0 +1,14 @@
+@import '../../../styles/variables.scss';
+
+.button {
+  position: absolute;
+  background-color: $color-light;
+  padding: 0;
+  height: 24px;
+  border: none;
+  outline: none;
+  z-index: 100;
+  top: 1px;
+  right: 10px;
+  cursor: pointer;
+}

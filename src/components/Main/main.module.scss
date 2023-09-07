@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: $color-light;
+  box-sizing: border-box;
+}
+
+.warning {
+}

@@ -1,0 +1,69 @@
+@import '../../../styles/variables.scss';
+
+.label {
+  color: $color-light;
+  font-family: $font;
+  font-size: $font-size-normal;
+}
+
+.selector {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.input {
+  color: $color-dark-gray;
+  font-family: $font;
+  font-size: $font-size-small;
+  display: flex;
+  flex-basis: 180px;
+  padding-left: 10px;
+  height: 25px;
+  background-color: $color-light;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.input:hover {
+  outline: none;
+  border: none;
+}
+
+.inputWrapper {
+  display: flex;
+  position: relative;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  top: 27px;
+  left: 0;
+  list-style-type: none;
+  background-color: $color-light;
+  box-sizing: border-box;
+}
+
+.dropdownItem {
+  padding: 10px 10px;
+  color: $color-dark-gray;
+  font-family: $font;
+  font-size: $font-size-small;
+  cursor: pointer;
+}
+
+.dropdownItem:hover {
+  background-color: $color-dark-gray;
+  color: $color-light;
+}
+

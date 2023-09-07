@@ -1,0 +1,9 @@
+@import '../../../../styles/variables.scss';
+
+.wrapper {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  color: $color-dark-gray;
+  cursor: pointer;
+}
